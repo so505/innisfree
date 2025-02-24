@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>홈  | 이니스프리 </title>
+    <link rel="shortcut icon" href="./images/xicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto Sans KR:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/sub.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <script src="./script/sub.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="header_cotainer">
+            <div class="header_left">
+                <a href="#">KR</a>
+                <a href="#"><img src="./images/search.png" alt=""></a>
+            </div> 
+            <h1><a href="./index.html"><img src="./images/logo_top.png" alt=""></a></h1>
+            <div class="header_right">
+                <a href="#"><img src="./images/user.png" alt="로그인"></a>
+                <a href="#"><img src="./images/heart.png" alt="찜하기"></a>
+                <a href="#"><img src="./images/bag.png" alt="장바구니"></a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#"><img src="./images/menu.png" alt=""></a></li>
+                <li><a href="#">NEW</a>
+                </li>
+                <li><a href="#">BEST</a></li>
+                <li><a href="#">EVENT</a></li>
+                <li><a href="#">SKINCARE</a>
+                </li>
+                <li><a href="#">BOOY</a>
+                </li>
+                <li><a href="#">HAIR</a>
+                </li>
+                <li><a href="#">MAN</a></li>
+                <li><a href="#">BRAND</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="breadcrumb">
+            <a href="#">메뉴 </a> > <a href="#">스킨케어 </a> > <a href="#">에센스 </a> >
+        </div>
+        <div class="product_warp">
+            <div class="product-poto">
+                <a href="#"class="big"><img src="./images/big-product_001.jpg" alt=" "></a>
+                <div class="thumbnail_poto">
+                    <a href="#"><img src="./images/small-product_004.jpg" alt="" ></a>
+                    <a href="#"><img src="./images/small-product_002.jpg" alt="" ></a>
+                    <a href="#"><img src="./images/small-product_003.jpg" alt="" ></a>
+                </div>
+            </div>
+            <div class="product_info">
+                <div class="top">
+                    <h1>레티놀 시카 흔적 앰플30mL</h1>
+                    <a href="#"><img src="./images/share.png" alt="공유하기"></a>
+                </div>
+                <p>피부 재생 효과,  민감성 피부에도 적합하며<br>피부장벽을 강화하여 탄탄한 피부를 완성합니다</p>
+                
+                <div class="price">
+                    <p class="discounted_price"><span>25%</span>30,000원<em class="original_price"><del>40,000원</del></em></p>
+                </div>
+                <ul class="benefit">
+                    <li><a href="#"><span>배송비</span></a>
+                        <a href="#"><em>무료배송</em></a>
+                    </li>
+                    <li><a href="#"><em>포인트 적립 결제 금액의 1% 적립</em></a></li>
+                    <li><a href="#"><em>하나카드 3만원이상 결제시, 5천원 청구할인 ></em></a>
+                    <li><a href="#"><em>비씨카드 마이태그하고 5천원 할인 ></em></a></li>
+                    <li><a href="#"><em>토스페이로 결제하고 최대 7,000원 혜택 ></em></a></li>
+                    </li>   
+                </ul>
+                <div class="skin_type">
+                    <div class="type">
+                        <a><img src="./images/Ellipse_001.png" alt=""></a>
+                        <p>주름개선</p>
+                    </div>
+                    <div class="type">
+                        <a><img src="./images/Ellipse_002.png" alt=""></a>
+                        <p>미백</p>
+                    </div>
+                    <div class="type">
+                        <a><img src="./images/Ellipse_003.png" alt=""></a>
+                        <p>비건인증</p>
+                    </div>
+                    <div class="type">
+                        <a><img src="./images/Ellipse_004.png" alt=""></a>
+                        <p>공병수거</p>
+                    </div>
+                </div>
+                <div class="price_bg">
+                    <h3>레티놀시카앰플 30ML</h3>   
+                    <div class="num_pricc">
+                        <div class="num">
+                            <button type="button" id="minus">-</button>
+                            <input type="number" name="product_num" id="product_num" value="1">
+                            <button type="button" id="plus">+</button>
+                        </div>
+                    </div>
+                    <p><em class="sum_price">30,000</em>원</p>
+                </div>
+                <div class="total">
+                    <h2>TOTAL</h2>
+                    <p class="total_num">0<em>개</em></p>
+                    <p><span class="total_price">30,000</span>원</p>
+                </div>
+                <div class="order_btn">
+                    <button type="button" id="cart_btn">바로구매</button>
+                    <button type="button" id="buy_btn">장바구니</button>
+                </div>
+                <div class="recommen">
+                    <h3>함께쓰면 좋아요</h3>
+                    <ul>
+                        <li><img src="./images/recommen_001.jpg" alt=""><p>시카 밤 50ml</p></li>
+                        <li><img src="./images/recommen_002.jpg" alt=""><p>시카 크림 100ml</p></li>
+                        <li><img src="./images/recommen_003.jpg" alt=""><p>시카 패드 60매</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <ul class="tap">
+            <li class="active"><a href="#">상품상세정보</a></li>
+            <li ><a href="#">전성분표</a></li>
+            <li><a href="#">배송정보</a></li>
+            <li><a href="#">리뷰(580)</a></li>
+        </ul>
+        <div class="product_details">
+            <img src="./images/product_details_001.jpg" alt="상품상세정보">
+            <img src="./images/product_details_002.jpg" alt="상품상세정보">
+            <img src="./images/product_details_003.jpg" alt="상품상세정보">
+            <img src="./images/product_details_004.jpg" alt="상품상세정보">
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="cs">
+            <p>고객센터</p>
+            <p>080-380-0114</p>
+            <p>평일 10:00~17:00<br>(점심시간 12:00~1300)<br>토,일 공휴일 휴무</p>
+        </div>
+        <div class="info">
+            <p>(주)이니스프리 서울특별시 용산구 한강대로 100(한강로2가) 7층  대표이사 최민정<br>사업자 등록번호 106-86-68127 통신판매신고번호 2018-서울용산-0014<br>이메일 주소 innisfree@innisfree.com</p>
+            <a><img src="./images/logo_botm.png" alt=""></a>
+        </div>
+        <div class="law">
+            <p><a href="#">서비스 이용약관</a></p>
+            <p><a href="#">개인정보처리방침</a></p>
+            <p><a href="#">운영/관리 방침</a></p>
+            <p><a href="#">구매안전서비스가입확인</a></p>
+            <div class="sns">
+                <a href="#"><img src="./images/sns_001.png" alt="인스타"></a>
+                <a href="#"><img src="./images/sns_002.png" alt="페이스북"></a>
+                <a href="#"><img src="./images/sns_003.png" alt="유투브"></a>
+            </div>
+        </div> 
+    </footer>
+    <!-- <button id="topBtn" class="top-button"><img src="./images/north.png" alt=""></button> -->
+    
