@@ -9,7 +9,7 @@ header {
 }
 
 header .header_cotainer {
-    width: 100%; margin: 0 auto;
+    max-width: 1260px; margin: 0 auto;
     display: flex; justify-content: space-between; align-items: center;
     padding: 10px 0;
 }
@@ -379,9 +379,9 @@ main .show_case_warp .olive .olive_contents .buy_btn {
 main .live_wrap {
     width: 1260px; margin: 0 auto;
     display: flex; flex-flow: row wrap; align-items: center; justify-content: center;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
-main .live_wrap video {max-width: 600px; height: 736px; margin: 0 150px; }
+main .live_wrap video {max-width: 480px; height: 589px; margin: 0 150px; }
 main .live_wrap .live_contents {flex: 1}
 main .live_wrap .live_contents p:nth-of-type(1) {letter-spacing: -0.02em; line-height: 1.2;font-weight: 500; margin-bottom: 10px;}
 main .live_wrap .live_contents p:nth-of-type(2) span {font-size: 2.50rem;font-weight: 900;font-family:'Montserrat';margin-bottom: 15px;}

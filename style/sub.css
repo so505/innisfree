@@ -73,7 +73,7 @@ main .product_warp .product_info .top .icon a {}
 main .product_warp .product_info .top .icon a img {}
 main .product_warp .product_info p {
     font-size: 0.94rem;font-weight: 500; line-height: 1.3; letter-spacing: -0.02em;
-    color: #4B4B4B; margin-top: 9px;margin-bottom: 32px;
+    color: #1a1a1a; margin-top: 9px;margin-bottom: 32px;
 }
 
 main .product_warp .product_info .price {}
@@ -89,12 +89,12 @@ main .product_warp .product_info .benefit li {}
 main .product_warp .product_info .benefit li:nth-of-type(1) a {font-size: 0.88rem; line-height: 1.3; letter-spacing: -0.02em;}
 main .product_warp .product_info .benefit li:nth-of-type(1) a em {font-size: 0.88rem; line-height: 1.3; letter-spacing: -0.02em;font-weight: 400;}
 main .product_warp .product_info .benefit li span {}
-main .product_warp .product_info .benefit li a em {font-size: 0.75rem;line-height: 1.3; letter-spacing: -0.02em; font-weight: 200;}
+main .product_warp .product_info .benefit li a em {font-size: 0.75rem;line-height: 1.3; letter-spacing: -0.02em; font-weight: 300; color: #000;}
 
 main .product_warp .product_info .skin_type {display: flex; flex-flow: row nowrap; margin-bottom: 32px;}
 main .product_warp .product_info .skin_type .type {margin-right: 10px;}
 main .product_warp .product_info .skin_type .type:nth-of-type(2) p {margin-top: 12px;}
-main .product_warp .product_info .skin_type .type p {font-size: 0.56rem; line-height: 1.3; letter-spacing: -0.02em; }
+main .product_warp .product_info .skin_type .type p {font-size: 0.56rem; line-height: 1.3; letter-spacing: -0.02em; font-weight: 400;}
 main .product_warp .product_info .skin_type .type a {width: 33px; height: 28px;}
 main .product_warp .product_info .skin_type .type a img {width: 100%;}
 
@@ -123,7 +123,7 @@ main .product_warp .order_btn button#cart_btn {background-color: #12B560;
 main .product_warp .order_btn button#buy_btn {border: 1px solid #AEADAD; padding: 18px 67px;border-radius: 5px;line-height: 1.3; letter-spacing: -0.02em;font-size: 1.13rem; font-weight: 600; }
 
 main .recommen {margin-top:64px ;}
-main .recommen h3 {font-size: 0.94rem;line-height: 1.3; letter-spacing: -0.02em;margin-bottom: 10px;}
+main .recommen h3 {font-size: 0.94rem;line-height: 1.3; letter-spacing: -0.02em;margin-bottom: 10px; font-weight: 500;}
 main .recommen ul {display: flex; flex-flow: row nowrap; }
 main .recommen ul li {margin-right: 10px;}
 main .recommen ul li:hover {transform: scale(0.98);}
